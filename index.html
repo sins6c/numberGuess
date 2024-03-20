@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NumberGuess</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <div class="main">
+        <center><h1>  select the number between 1 to 100 </h1></center>
+        <label for="number">Guess The Number</label>
+        <input type="text" value="" placeholder="enter the number" id="n1" required><br/>
+        <h1 id="res"></h1>
+        <input type="button" value="Guess" id="check" onclick="check()">
+        <input type="button" value="Reset" id="reset" onclick="window.location.reload()" >
+        <h1 id="trial"></h1>
+
+        
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
